@@ -1,5 +1,5 @@
 <template>
-<div class="title1" id="home">
+<div class="title1 animate__animated animate__fadeIn" id="home">
   <div id="carouselExampleFade" class="mainpicture carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

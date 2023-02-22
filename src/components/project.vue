@@ -1,5 +1,5 @@
 <template>
-<div class="title3 container-fluid" id="Project">
+<div class="title3 container-fluid animate__animated animate__fadeIn" id="Project">
     <h1 class="animate__animated animate__bounceInDown">Project</h1>
     <hr>
     <div class="row  row-cols-lg-3 row-cols-md-2">
@@ -167,5 +167,9 @@ export default {
     padding-left: 50px;
 }
 
-
+@media screen and (max-width: 767px){
+.hover1{
+    position: fixed;
+}
+}
 </style>

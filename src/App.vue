@@ -76,6 +76,10 @@ hr{
     margin:40px 0px;
 }
 
+.bot p{
+  font-size: 25px;
+}
+
 @media screen and (max-width: 767px){
 
 .mainpicture img{
@@ -108,8 +112,7 @@ h3{
 font-size: 10px;
 }
 
-
-.bot{
+.bot p{
     font-size: 15px;   
 }
 

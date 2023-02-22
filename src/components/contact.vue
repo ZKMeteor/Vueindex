@@ -1,5 +1,5 @@
 <template>
-<div class="title4 container-fluid" id="Contact">  
+<div class="title4 container-fluid animate__animated animate__fadeIn" id="Contact">  
     <h1 class="animate__animated animate__bounceInDown">Contact</h1>
     <hr>
     <div class="row row-cols-lg-2">
