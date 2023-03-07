@@ -5,10 +5,28 @@
     <div class="row  row-cols-lg-3 row-cols-md-2">
         <div class="title3-1" >
             <div class="box animate__animated animate__fadeIn">
-                <h2 style="text-align:center; padding:3px 0px;">Search Practise</h2>
+                <h2 style="text-align:center; padding:3px 0px;">Layout Practice</h2>
+                <a  href="https://zkmeteor.github.io/sideproject/layout2.html">
+                <div class="hover1 ">
+                <h2>Login Practice</h2>
+                <br>
+                    <div class="hover1-2">
+                        <p>Layout Practice</p>
+                        <br>
+                        <h3>Skill:</h3>
+                        <p>Html,Css,</p>
+                    </div>
+                </div>
+            <img src="../assets/layout2.jpg" class="img-fluid "/>
+            </a>
+            </div>
+        </div>
+        <div class="title3-1" >
+            <div class="box animate__animated animate__fadeIn">
+                <h2 style="text-align:center; padding:3px 0px;">Search Practice</h2>
                 <a  href="https://zkmeteor.github.io/Search_github_user/">
                 <div class="hover1 ">
-                <h2>axios practise</h2>
+                <h2>axios Practice</h2>
                 <br>
                     <div class="hover1-2">
                         <p>使用axios抓資料</p>
@@ -23,7 +41,7 @@
         </div>
         <div class="title3-1" >
             <div class="box animate__animated animate__fadeIn">
-                <h2 style="text-align:center; padding:2px 0px;">Test Practise</h2>
+                <h2 style="text-align:center; padding:2px 0px;">Test Practice</h2>
                 <a href="https://zkmeteor.github.io/sideproject/test.html">
                 <div class="hover1 ">
                 <h2>test</h2>
@@ -41,13 +59,13 @@
         </div>
         <div class="title3-1" >
             <div class="box animate__animated animate__fadeIn">
-                <h2 style="text-align:center; padding:2px 0px;">List Practise</h2>
+                <h2 style="text-align:center; padding:2px 0px;">List Practice</h2>
                 <a href="https://zkmeteor.github.io/VueCli_1/">
                 <div class="hover1 ">
                 <h2>List</h2>
                 <br>
                     <div class="hover1-2">
-                        <p>使用cli製作，綁定Webstorage，清單紀錄。</p>
+                        <p>綁定Webstorage，清單紀錄。</p>
                         <br>
                         <h3>Skill:</h3>
                         <p>Html,Css,Vuejs,Vuecli,Webstorage</p>
@@ -59,13 +77,13 @@
         </div>
         <div class="title3-1" >
             <div class="box animate__animated animate__fadeIn">
-                <h2 style="text-align:center; padding:2px 0px;">Excel Practise</h2>
+                <h2 style="text-align:center; padding:2px 0px;">Excel Practice</h2>
                 <a href="https://zkmeteor.github.io/sideproject/soldierlist.html">
                 <div class="hover1 ">
                 <h2>SoldierList</h2>
                 <br>
                     <div class="hover1-2">
-                        <p>班長拜託我做的，方便他收集資料。</p>
+                        <p>Excel匯出功能</p>
                         <br>
                         <h3>Skill:</h3>
                         <p>Html,Css,Bootstrap,Vuejs</p>
@@ -77,13 +95,13 @@
         </div>
         <div class="title3-1" >
             <div class="box animate__animated animate__fadeIn">
-                <h2 style="text-align:center; padding:2px 0px;">Layout Practise</h2>
+                <h2 style="text-align:center; padding:2px 0px;">Layout Practice</h2>
                 <a href="https://zkmeteor.github.io/sideproject/layout1.html">
                 <div class="hover1 ">
                 <h2>Anime&nbspTop10</h2>
                 <br>
                     <div class="hover1-2">
-                        <p>個人推薦十大動漫。</p>
+                        <p>flex使用</p>
                         <br>
                         <h3>Skill:</h3>
                         <p>Html,Css,Bootstrap</p>
@@ -95,13 +113,13 @@
         </div>
         <div class="title3-1" >
             <div class="box animate__animated animate__fadeIn">
-                <h2 style="text-align:center; padding:2px 0px;">Js Practise</h2>
+                <h2 style="text-align:center; padding:2px 0px;">Js Practice</h2>
                 <a href="https://zkmeteor.github.io/sideproject/diary.html">
                 <div class="hover1 ">
                 <h2>Diary</h2>
                 <br>
                     <div class="hover1-2">
-                        <p>一個簡單,快速寫日記的網站。</p>
+                        <p>forEach使用。</p>
                         <br>
                         <h3>Skill:</h3>
                         <p>Html,Css,Vue,Js,Bootstrap</p>

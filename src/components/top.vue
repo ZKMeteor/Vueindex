@@ -73,7 +73,6 @@ justify-content:center;
 }
 
 .nav-2-1{
-  font-weight: 900;
   flex: 1;
   display: flex;
   flex-direction: row;                /*由左至右*/
@@ -84,17 +83,39 @@ justify-content:center;
 .nav-2 a{
     letter-spacing:0.15em;          /* 文字間距 */
     font-size: 20PX;
+    margin: 0 5px;
+    position: relative;
+    transform: translateY(0);
+    transition: .5s;
+  
+}
 
+.nav-2 a::after{
+    content: '';
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    bottom: -5px;
+    border-bottom: 1px solid purple;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .nav-2 a:hover{
     border-radius: 5px;
-    background:rgba(140, 247, 255, 0.884);
     color: purple;
+    transform: translateY(-3px);
 }
+
+.nav-2 a:hover::after{
+    left: 0;
+    right: 0;
+}
+
 
 .active{
   color: purple;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 767px){
@@ -155,7 +176,7 @@ justify-content:center;
 .nav-2-1 a{
   font-weight: 900;
   color: purple;
-  border-bottom: 1px solid purple;
+
 }
 
 #btn_control:checked ~ nav{

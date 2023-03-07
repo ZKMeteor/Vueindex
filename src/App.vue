@@ -2,7 +2,6 @@
   <div id="app">
     <top/>
     <router-view>
-        <home/>
     </router-view>
     <bot/>
   </div>
@@ -105,11 +104,11 @@ h1{
 }
 
 h2{
-font-size: 25px;
+    font-size: 25px;
 }
 
 h3{
-font-size: 10px;
+    font-size: 10px;
 }
 
 .bot p{
