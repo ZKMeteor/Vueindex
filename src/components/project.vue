@@ -5,6 +5,24 @@
     <div class="row  row-cols-lg-3 row-cols-md-2">
         <div class="title3-1" >
             <div class="box animate__animated animate__fadeIn">
+                <h2 style="text-align:center; padding:3px 0px;">Anime Web</h2>
+                <a  href="https://zkmeteor.github.io/ec_web/#/">
+                <div class="hover1 ">
+                <h2>Web Practice</h2>
+                <br>
+                    <div class="hover1-2">
+                        <p>Design Web Practice</p>
+                        <br>
+                        <h3>Skill:</h3>
+                        <p>Vue,Router,Vuex,BootStrap,Animate.css,Axios</p>
+                    </div>
+                </div>
+            <img src="../assets/thinking.jpg" class="img-fluid "/>
+            </a>
+            </div>
+        </div>
+        <div class="title3-1" >
+            <div class="box animate__animated animate__fadeIn">
                 <h2 style="text-align:center; padding:3px 0px;">Layout Practice</h2>
                 <a  href="https://zkmeteor.github.io/sideproject/layout2.html">
                 <div class="hover1 ">
