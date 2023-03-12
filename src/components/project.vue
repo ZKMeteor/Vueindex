@@ -17,7 +17,7 @@
                         <p>Vue,Router,Vuex,BootStrap,Animate.css,Axios</p>
                     </div>
                 </div>
-            <img src="../assets/thinking.jpg" class="img-fluid "/>
+            <img src="../assets/web.jpg" class="img-fluid "/>
             </a>
             </div>
         </div>
