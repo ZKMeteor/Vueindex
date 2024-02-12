@@ -39,5 +39,5 @@ export default new VueRouter({
             path:'/contact',
             component:contact
         }
-    ]
+    ],
 })

@@ -1,25 +1,16 @@
 <template>
-<div class="title2 container-fluid animate__animated animate__fadeIn" id="about">
-    <h1 class="animate__animated animate__bounceInDown">About&nbspMe</h1>    
-    <hr>
-    <div class="container">
-        <div class="box row">
-            <div class="title2-3 col-lg-6 col-sm-12 animate__animated animate__slideInLeft "   >
-                <h2>Name:</h2>
-                <P>劉景興</p>
-                <br>
-                <h2>Age:</h2>
-                <P>23y</p>
-                <br>
-                <h2>Location:</h2>
-                <P>Tainan,Taiwan</p>
-                <div class="title2-2">
-                    <p>&nbsp&nbsp你好，我叫Meteor。<br></p>
-                    <P>我是個熱愛思考設計網站的自學練習生，平時喜歡看看別人寫的網站去學習他們設計，在嘗試能不能加入自己練習的網站中，希望未來工作上能學習到更多技巧。</p>
+<div class="container-fluid animate__animated animate__fadeIn" id="about">
+    <div class="container" style="padding-top:60px">
+        <h1 class="animate__animated animate__bounceInDown about-title py-3">About&nbsp;Me</h1>    
+        <div class="row d-flex justify-content-around align-items-center">
+            <div class="col-lg-5 col-md-6 col-11 animate__animated animate__slideInLeft p-3">
+                <div class="box-1">
+                    <p class="py-2">你好，我叫Meteor。<br></p>
+                    <p>&emsp;我是個熱愛思考設計網站的自學練習生，平時喜歡看看別人寫的網站去學習他們設計，在嘗試能不能加入自己練習的網站中，希望未來工作上能學習到更多技巧。</p>
                 </div>
             </div>            
-            <div class="title2-1 col-lg-4 col-sm-12">
-                <img class="animate__animated animate__slideInRight" src="../assets/me.jpg" />
+            <div class="col-lg-4 col-md-6 col-11 about-img p-3">
+                <img class="animate__animated animate__fadeIn" src="../assets/me.jpg" />
             </div>
         </div>
     </div>
@@ -35,73 +26,32 @@ export default {
 
 <style scoped>
 
-.title2{
-    background-color:#FFF8D7;;
-    padding-top: 80px;
-    width: 100%;
-    height: auto;
+.about-title {
+    text-align: center;
+    font-weight: 600;
+    color: purple;
 }
 
-.title2 .box{
+.about-img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+#about {
+    min-height: 100vh;
+    background: #fff8d7;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    flex-direction: column;
 }
 
-.title2-1 img{
-    max-width: 100%;
-    border-radius: 10px;
-    position: relative;
-    right: 0px;
+.box-1 p{
+    line-height: 1.5;
+    letter-spacing: 5px;
 }
 
-.title2-2{
-    width: 100%;
-}
-
-.title2-3{
-
-/*     background-color: #FFE5B4; */
-    border-radius: 50px;
-}
-
-.title2 p{
-    font-family: DFKai-sb;
-    display: inline-block;
-    color: black;
-    font-size: 23px;
-    line-height: 1.8em;
-    letter-spacing: 0.2em;
-    word-wrap:break-word;   /*以單字為單位換行*/
-}
-
-@media screen and (max-width: 767px){
-
-.title2-1 img{
-    display: none;
-}
-
-.title2 .box{
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-}
-.title2-2{
-    width: 100%;
-}
-
-.title2 p{
-    font-family: DFKai-sb;
-    display: inline-block;
-    color: black;
-    font-size: 20px;
-    line-height: 1.8em;
-    letter-spacing: 0.2em;
-    word-wrap:break-word;   /*以單字為單位換行*/
-}
-
-
-
+@media screen and (max-width:768px) {
 }
 
 </style>

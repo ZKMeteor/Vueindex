@@ -13,35 +13,30 @@
           <img src="../assets/main.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
               <h5>The University</h5>
-              <p>Graduation Photo</p>
           </div>
         </div>
         <div class="carousel-item" >
           <img src="../assets/main2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
               <h5>The University</h5>
-              <p>Classmate</p>
           </div>
         </div>
         <div class="carousel-item" >
           <img src="../assets/main3.jpg" class="d-block w-100 " alt="...">
           <div class="carousel-caption d-none d-md-block">
-              <h5>Zhongkeng&nbsp112T&nbsp1B3C</h5>
-              <p>same ladder</p>
+              <h5>Zhongkeng&nbsp;112T&nbsp;1B3C</h5>
           </div>
         </div> 
         <div class="carousel-item" >
           <img src="../assets/main4.jpg" class="d-block w-100 " alt="...">
           <div class="carousel-caption d-none d-md-block">
               <h5>Senior high school</h5>
-              <p>Teacher&nbsp&&nbspclassmate</p>
           </div>
         </div>
         <div class="carousel-item" >
           <img src="../assets/main5.jpg" class="d-block w-100 " alt="...">
           <div class="carousel-caption d-none d-md-block">
               <h5>Junior high school</h5>
-              <p>Teacher&nbsp&&nbspclassmate</p>
           </div>
         </div>
       </div>
@@ -71,10 +66,11 @@ export default {
 <style scoped>
 
 .title1 h5{
-    color: orange;
+    color: white;
     letter-spacing: 0.3em;
     font-size: 20px;
     font-weight: 900;
+
 }
 .mainpicture img{
     height: 100vh;

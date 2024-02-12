@@ -1,6 +1,6 @@
 <template>
   <div class="bot" >
-    <p>©{{year}} &nbsp ZanKiMeteor</p>
+    <p>©{{years}}&emsp;Meteor</p>
   </div>
 </template>
 
@@ -9,8 +9,14 @@ export default {
     name:'bot',
     data(){
         return{
-            year:2023
+            year:''
         }
+    },
+    computed:{
+      years(){
+        let date =new Date();
+        return date.getFullYear()
+      }
     }
 
 }
@@ -19,12 +25,12 @@ export default {
 <style scoped>
 .bot{
     width: 100%;
-    height: 50px;
+    height: 40px;
+    line-height: 40px;
     opacity: 0.5;
     background-color: rgba(140, 247, 255, 0.884);
     text-align: center;
-    line-height: 50px;
-    letter-spacing: 0.3em;
+    letter-spacing: 2px;
     color: purple;
 }
 
